@@ -1,0 +1,17 @@
+title Merchant Payments African
+
+component merchant-webapp as "Merchant Webapp" web-application
+component merchant-api as "Merchant API" service
+component merchant-db as "Merchant Database" database
+
+east merchant-auth as "Thunder Auth" identity-server
+south payment-gateway as "Payment Gateway" service
+
+north -> merchant-webapp
+
+merchant-webapp -> merchant-api
+merchant-webapp -> merchant-auth
+
+merchant-api -> merchant-auth
+merchant-api -> merchant-db
+merchant-api -> payment-gateway

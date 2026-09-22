@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "permissions": [
+    {
+      "resource": "payment-requests",
+      "component": "merchant-api",
+      "description": "Payment requests a merchant creates for a sale",
+      "actions": [
+        { "handle": "create", "description": "Create a payment request" },
+        { "handle": "read", "description": "The caller's own payment requests" }
+      ]
+    },
+    {
+      "resource": "transactions",
+      "component": "merchant-api",
+      "description": "Payment attempts settled against a merchant's payment requests",
+      "actions": [
+        { "handle": "read", "description": "The caller's own transactions" }
+      ]
+    },
+    {
+      "resource": "payouts",
+      "component": "merchant-api",
+      "description": "Withdrawal requests against a merchant's collected balance",
+      "actions": [
+        { "handle": "request", "description": "Request a payout" },
+        { "handle": "read", "description": "The caller's own payouts" }
+      ]
+    }
+  ],
+  "groups": [],
+  "roles": [
+    {
+      "name": "Merchant",
+      "description": "Signs up, creates payment requests, and tracks transactions, balance and payouts.",
+      "stories": [1, 2, 3, 7, 8, 9, 10, 11],
+      "grants": ["payment-requests:create", "payment-requests:read", "transactions:read", "payouts:request", "payouts:read"],
+      "enrolment": "self-service"
+    }
+  ],
+  "testUsers": [
+    { "username": "test-merchant", "roles": ["Merchant"] },
+    { "username": "test-merchant-2", "roles": ["Merchant"] }
+  ]
+}

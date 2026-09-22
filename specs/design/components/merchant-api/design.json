@@ -1,0 +1,18 @@
+{
+  "name": "merchant-api",
+  "type": "service",
+  "version": "0.1.0",
+  "language": "Ballerina",
+  "buildpack": "docker",
+  "appPath": "merchant-api",
+  "entrypoint": "deployment/service",
+  "exposure": "intranet",
+  "dependencies": [
+    { "kind": "platform-resource", "name": "merchant-auth", "resourceType": "thunder-app", "parameters": {} },
+    { "kind": "platform-resource", "name": "merchant-db", "resourceType": "postgres-cnpg", "parameters": {} },
+    { "kind": "external", "name": "payment-gateway", "description": "Charges the customer's mobile money or card when a guest pays a payment request, and reports the resulting transaction status." }
+  ],
+  "description": "Owns merchants, payment requests, transactions and payouts. Verifies the merchant's signed-in identity for merchant-only operations, exposes an unauthenticated read/pay path for a guest completing a payment request, and calls the payment-gateway resource to process mobile money and card charges. Does not itself hold card/mobile-money credentials or move real funds — settlement is delegated entirely to the payment gateway.",
+  "stories": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "skillsPinned": ["openapi-conventions", "ballerina", "api-management", "thunder-authentication"]
+}

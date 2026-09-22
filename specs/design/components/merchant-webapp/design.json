@@ -1,0 +1,17 @@
+{
+  "name": "merchant-webapp",
+  "type": "web-application",
+  "version": "0.1.0",
+  "language": "TypeScript",
+  "buildpack": "docker",
+  "appPath": "merchant-webapp",
+  "entrypoint": "deployment/web-application",
+  "exposure": "internet",
+  "dependencies": [
+    { "kind": "component", "name": "merchant-api" },
+    { "kind": "platform-resource", "name": "merchant-auth", "resourceType": "thunder-app", "parameters": {} }
+  ],
+  "description": "The merchant-facing dashboard (sign-up, sign-in, payment requests, transaction history, balance, payouts) plus the public, unauthenticated guest checkout page a customer opens from a payment link to pay via mobile money or card. It renders screens and calls merchant-api for all data; it holds no business logic and no payment-gateway credentials itself.",
+  "stories": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "skillsPinned": ["wireframes", "react-webapp", "oxygen-ui-design-system", "thunder-authentication"]
+}
