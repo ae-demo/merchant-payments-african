@@ -1,0 +1,7 @@
+{
+  "targets": {
+    "merchant-api": "https://development-default.apps.wso2con.openchoreo-poc.choreo.dev:443/merchant-payments-african-merchant-api-http",
+    "merchant-webapp": "https://http-merchant-paym-development-default-165e1c66.apps.wso2con.openchoreo-poc.choreo.dev:443/"
+  },
+  "primary": "merchant-webapp"
+}
