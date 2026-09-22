@@ -7,11 +7,55 @@
   "appPath": "merchant-webapp",
   "entrypoint": "deployment/web-application",
   "exposure": "internet",
-  "dependencies": [
-    { "kind": "component", "name": "merchant-api" },
-    { "kind": "platform-resource", "name": "merchant-auth", "resourceType": "thunder-app", "parameters": {} }
+  "stories": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
   ],
   "description": "The merchant-facing dashboard (sign-up, sign-in, payment requests, transaction history, balance, payouts) plus the public, unauthenticated guest checkout page a customer opens from a payment link to pay via mobile money or card. It renders screens and calls merchant-api for all data; it holds no business logic and no payment-gateway credentials itself.",
-  "stories": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-  "skillsPinned": ["wireframes", "react-webapp", "oxygen-ui-design-system", "thunder-authentication"]
+  "dependencies": [
+    {
+      "kind": "component",
+      "name": "merchant-api",
+      "wiring": {
+        "endpoint": {
+          "component": "merchant-payments-african-merchant-api",
+          "name": "http",
+          "visibility": "project",
+          "envBindings": {
+            "address": "MERCHANT_API_URL"
+          }
+        }
+      }
+    },
+    {
+      "kind": "platform-resource",
+      "name": "merchant-auth",
+      "resourceType": "thunder-app",
+      "wiring": {
+        "ref": "merchant-payments-cb1b22c6",
+        "envBindings": {
+          "client_id": "MERCHANT_AUTH_CLIENT_ID",
+          "issuer": "MERCHANT_AUTH_ISSUER",
+          "jwks_url": "MERCHANT_AUTH_JWKS_URL",
+          "resource": "MERCHANT_AUTH_RESOURCE",
+          "scopes": "MERCHANT_AUTH_SCOPES"
+        }
+      }
+    }
+  ],
+  "skillsPinned": [
+    "wireframes",
+    "react-webapp",
+    "oxygen-ui-design-system",
+    "thunder-authentication"
+  ]
 }
