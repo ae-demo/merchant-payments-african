@@ -1,0 +1,33 @@
+apiVersion: openchoreo.dev/v1alpha1
+metadata:
+  name: merchant-api
+
+endpoints:
+  - name: http
+    type: HTTP
+    port: 9090
+    basePath: /
+    visibility:
+      - project
+      - internal
+      - external
+
+dependencies:
+  resources:
+    - ref: merchant-payments-cb1b22c6
+      envBindings:
+        client_id: MERCHANT_AUTH_CLIENT_ID
+        issuer: MERCHANT_AUTH_ISSUER
+        jwks_url: MERCHANT_AUTH_JWKS_URL
+        resource: MERCHANT_AUTH_RESOURCE
+        scopes: MERCHANT_AUTH_SCOPES
+    - ref: merchant-payments-c8216df2
+      envBindings:
+        dbname: MERCHANT_DB_DBNAME
+        host: MERCHANT_DB_HOST
+        password: MERCHANT_DB_PASSWORD
+        port: MERCHANT_DB_PORT
+        user: MERCHANT_DB_USER
+    - ref: merchant-payments-25bb010a
+      envBindings:
+        PAYMENT_GATEWAY_BASE_URL: PAYMENT_GATEWAY_BASE_URL
