@@ -18,7 +18,7 @@ function toPaymentRequest(PaymentRequestRow row) returns PaymentRequest {
         amount: row.amount,
         currency: row.currency,
         status: effectiveStatus(row),
-        paymentLinkUrl: string `/payment-links/${row.id}`,
+        paymentLinkUrl: string `/pay/${row.id}`,
         createdAt: time:utcToString(row.createdAt),
         expiresAt: expiresAtStr
     };
