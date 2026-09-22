@@ -13,7 +13,18 @@ from `process.env.AEP_E2E_USERNAME` / `_PASSWORD` (test-merchant) and
 `_USERNAME_2` / `_PASSWORD_2` (test-merchant-2, used only by AC-002-b for
 cross-account isolation).
 
-## Known app defect affecting AC-004-a (see full writeup at that section)
+## Re-validation 2026-09-22 — AC-004-a defect fixed
+
+`merchant-api/mapping.bal` was updated (#9/#10, commit `2c7310f`) so
+`paymentLinkUrl` now points at the webapp's public `/pay/{id}` route instead
+of the API's `/payment-links/{id}` path. Re-ran the full regression suite
+(17/17 specs) against the deployed system with no spec changes: AC-004-a now
+passes — a guest opening the displayed "Shareable link" reaches the pay
+screen with no sign-in prompt. All 17 e2e criteria pass; no new defects
+found. The section below is kept for history (it described the pre-fix
+behaviour); AC-004-a's spec itself was never modified.
+
+## Known app defect affecting AC-004-a (see full writeup at that section) — RESOLVED, see re-validation note above
 
 The payment request detail screen shows a "Shareable link" built from the
 API's `PaymentRequest.paymentLinkUrl`, which `merchant-api` sets to
