@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "issue": 7,
+  "commit": "baccc4bae421cb60423ea123ae745d91fb54b2ea",
+  "generatedAt": "2026-09-22T15:19:07.098Z",
+  "playwrightVersion": "1.61.1",
+  "batches": [
+    {
+      "file": "2026-09-22T14-51-42-480Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-52-01-976Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-52-11-894Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-52-29-230Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-52-38-574Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-52-53-845Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-53-00-279Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-53-15-965Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-53-57-247Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-54-10-196Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-54-33-394Z.json",
+      "specs": 2
+    },
+    {
+      "file": "2026-09-22T14-54-47-377Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-54-52-866Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-55-22-296Z.json",
+      "specs": 0
+    },
+    {
+      "file": "2026-09-22T14-55-29-138Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-55-49-976Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-56-20-054Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-56-30-093Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-56-47-719Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-56-57-827Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-57-14-940Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-57-25-456Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-57-42-757Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-57-53-593Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-58-18-433Z.json",
+      "specs": 2
+    },
+    {
+      "file": "2026-09-22T14-58-34-649Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-58-41-770Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-58-57-776Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T14-59-24-841Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-00-32-015Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-00-41-001Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-01-03-861Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-01-15-814Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-01-37-710Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-01-49-667Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-02-11-140Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-03-16-494Z.json",
+      "specs": 3
+    },
+    {
+      "file": "2026-09-22T15-04-38-026Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-08-35-867Z.json",
+      "specs": 3
+    },
+    {
+      "file": "2026-09-22T15-10-18-494Z.json",
+      "specs": 3
+    },
+    {
+      "file": "2026-09-22T15-10-43-436Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-10-50-919Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-10-59-200Z.json",
+      "specs": 1
+    },
+    {
+      "file": "2026-09-22T15-11-25-054Z.json",
+      "specs": 17
+    },
+    {
+      "file": "2026-09-22T15-14-17-030Z.json",
+      "specs": 5
+    },
+    {
+      "file": "2026-09-22T15-14-52-491Z.json",
+      "specs": 5
+    },
+    {
+      "file": "2026-09-22T15-16-28-835Z.json",
+      "specs": 11
+    },
+    {
+      "file": "2026-09-22T15-17-37-176Z.json",
+      "specs": 11
+    },
+    {
+      "file": "2026-09-22T15-18-46-385Z.json",
+      "specs": 1
+    }
+  ],
+  "totals": {
+    "e2e": {
+      "total": 17,
+      "pass": 16,
+      "fail": 1,
+      "notRun": 0
+    },
+    "manual": 1,
+    "scenario": 0
+  },
+  "criteria": [
+    {
+      "id": "AC-001-a",
+      "requirementId": "REQ-001",
+      "must": "A new merchant can submit business name, email, phone and country to register",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-001-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 4729,
+      "failure": null,
+      "batch": "2026-09-22T15-11-25-054Z.json"
+    },
+    {
+      "id": "AC-001-b",
+      "requirementId": "REQ-001",
+      "must": "A registered merchant's currency is derived from their registered country",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-001-b.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 4705,
+      "failure": null,
+      "batch": "2026-09-22T15-11-25-054Z.json"
+    },
+    {
+      "id": "AC-002-a",
+      "requirementId": "REQ-002",
+      "must": "An unauthenticated user cannot access the merchant dashboard or its data",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-002-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 1842,
+      "failure": null,
+      "batch": "2026-09-22T15-11-25-054Z.json"
+    },
+    {
+      "id": "AC-002-b",
+      "requirementId": "REQ-002",
+      "must": "A signed-in merchant sees only their own account data, not another merchant's",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-002-b.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 8131,
+      "failure": null,
+      "batch": "2026-09-22T15-11-25-054Z.json"
+    },
+    {
+      "id": "AC-003-a",
+      "requirementId": "REQ-003",
+      "must": "A signed-in merchant can create a payment request by specifying a sale amount",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-003-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 4387,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-003-b",
+      "requirementId": "REQ-003",
+      "must": "Creating a payment request produces a shareable payment link",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-003-b.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 3978,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-004-a",
+      "requirementId": "REQ-004",
+      "must": "Opening a payment link does not require the customer to sign in or create an account",
+      "method": "e2e",
+      "status": "fail",
+      "spec": "tests/e2e/specs/AC-004-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 15163,
+      "failure": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /^Pay / })\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 10000ms\n  - waiting for getByRole('heading', { name: /^Pay / })\n    - waiting for\" https://development-idp.apps.wso2con.openchoreo-poc.choreo.dev/oauth2/authorize?client_id=aep-dp-default-merchant-paym-development-379739e3-r-merchant-payments-cb1b22c6-development-2c634fa5&redirect_…\" navigation to finish...\n    - navigated to \"https://development-idp.apps.wso2con.openchoreo-poc.choreo.dev/gate/signin?applicationId=01a0c96b-9c14-7a62-8664-8146025a71a4&authId=01a0c9b2-c623-7858-b392-c4b85a527013&executionId=01a0c9b2-c626-7a7…\"\n",
+        "location": "AC-004-a.spec.ts:5"
+      },
+      "batch": "2026-09-22T15-18-46-385Z.json"
+    },
+    {
+      "id": "AC-004-b",
+      "requirementId": "REQ-004",
+      "must": "A customer can complete payment of a payment request using mobile money",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-004-b.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 4876,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-005-a",
+      "requirementId": "REQ-005",
+      "must": "A customer can complete payment of a payment request using a debit/credit card",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-005-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 5978,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-006-a",
+      "requirementId": "REQ-006",
+      "must": "After a successful payment, the customer is shown an on-screen success confirmation",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-006-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 5302,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-006-b",
+      "requirementId": "REQ-006",
+      "must": "The confirmation is clear and understandable to a non-technical customer",
+      "method": "manual",
+      "status": "manual",
+      "spec": null,
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 0,
+      "failure": null,
+      "batch": null
+    },
+    {
+      "id": "AC-007-a",
+      "requirementId": "REQ-007",
+      "must": "When a payment request is successfully paid, the merchant sees an in-app notification of the received payment",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-007-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 5489,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-008-a",
+      "requirementId": "REQ-008",
+      "must": "A signed-in merchant can view a list of their transactions",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-008-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 5454,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-008-b",
+      "requirementId": "REQ-008",
+      "must": "Each listed transaction shows its status as pending, successful, or failed",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-008-b.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 5616,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-009-a",
+      "requirementId": "REQ-009",
+      "must": "A signed-in merchant can view their current available balance",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-009-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 4562,
+      "failure": null,
+      "batch": "2026-09-22T15-11-25-054Z.json"
+    },
+    {
+      "id": "AC-010-a",
+      "requirementId": "REQ-010",
+      "must": "A signed-in merchant can submit a payout request specifying an amount and a destination",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-010-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 6474,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-010-b",
+      "requirementId": "REQ-010",
+      "must": "A merchant can choose either a bank account or a mobile money wallet as the payout destination",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-010-b.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 7565,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    },
+    {
+      "id": "AC-011-a",
+      "requirementId": "REQ-011",
+      "must": "A signed-in merchant can view a list of their payout requests with their status",
+      "method": "e2e",
+      "status": "pass",
+      "spec": "tests/e2e/specs/AC-011-a.spec.ts",
+      "healed": false,
+      "healAttempts": 0,
+      "flaky": false,
+      "durationMs": 6602,
+      "failure": null,
+      "batch": "2026-09-22T15-17-37-176Z.json"
+    }
+  ]
+}
